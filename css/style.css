@@ -92,16 +92,16 @@ hr {
 }
 
 .header-nav-menu-center {
-  width: 40%;
+  width: 45%;
 }
 
 .header-nav-menu-right {
-  width: 45%;
+  width: 40%;
   text-align: right;
 }
 
 .jumbotron {
-  height: 590px;
+  height: 580px;
   position: relative;
 }
 
