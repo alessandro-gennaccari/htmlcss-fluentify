@@ -7,3 +7,79 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+header {
+  background-color: #0c325a;
+  /* Aggiungere bg */
+
+  height: 550px;
+}
+
+ul {
+  list-style: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  height: 100%;
+  background-color: black;
+}
+
+/* header */
+.header-nav {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+
+  background-color: green;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.header-nav-logo {
+  width: 15%;
+  height: 100%;
+
+  background-color: blue;
+}
+
+.header-nav-logo img {
+  margin-top: 13px;
+}
+
+.header-nav-menu-center {
+  width: 40%;
+  height: 100%;
+
+  background-color: gray;
+}
+
+.header-nav-menu-right {
+  width: 45%;
+  height: 100%;
+  text-align: right;
+
+  background-color: orange;
+}
+
+.jumbotron {
+  height: 470px;
+  width: 100%;
+
+  background-color: pink;
+}
