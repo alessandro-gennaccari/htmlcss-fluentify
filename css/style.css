@@ -248,4 +248,29 @@ section.view-plan {
 .view-plan-select {
   width: 70%;
   height: 150px;
+  line-height: 150px;
+  text-align: right;
+}
+
+span {
+  font-size: 20px;
+  color: #808080;
+  margin-left: 20px;
+}
+
+.select {
+  border-bottom: 1px solid grey;
+  margin-right: 20px;
+}
+
+span.select::after {
+  margin-left: 30px;
+  content: '\27A2';
+}
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 3%;
+  padding: 15px;
 }
