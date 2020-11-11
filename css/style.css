@@ -21,14 +21,17 @@ ul {
   list-style: none;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
+hr {
+  width: 98%;
+  margin: auto;
+  color: lightgrey;
 }
 
 .btn {
   border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .btn-nocolor {
@@ -73,6 +76,12 @@ a {
   padding: 0 15px;
 }
 
+.header-nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
 .header-nav-logo {
   width: 15%;
   height: 100%;
@@ -110,6 +119,8 @@ a {
 }
 
 /* main */
+
+/* section 1 */
 section.box-slogan {
   background-color: #d3d3d3;
   height: 150px;
@@ -128,4 +139,93 @@ section.box-slogan .slogan {
 section.box-slogan .slogan p {
   padding-top: 10px;
   color: #808080;
+}
+
+/* section 2 */
+section.study-plan .info-box {
+  font-size: 20px;
+  text-align: center;
+  width: calc(100% / 3);
+  padding: 0px 80px;
+}
+
+.info-box div.image-profile {
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+  background-image: url('../img/profile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-box div.image-computer {
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+  background-image: url('../img/computer.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-box div.image-doc {
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+  background-image: url('../img/doc.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.info-box-title h2 {
+  color: #7cbb02;
+  padding: 30px 0;
+}
+
+
+.info-box hr {
+  width: 20%;
+  margin: auto;
+  color: lightgrey;
+}
+
+div.info-box p {
+  padding: 30px 0;
+  color: #808080;
+}
+
+/* section 3 */
+section.level {
+  margin-bottom: 30px;
+}
+
+section.level .level-box {
+  width: 50%;
+}
+
+section.level .level-box .image-mountain {
+  height: 400px;
+  margin-top: 50px;
+  background-image: url('../img/mountain.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+section.level .level-box .level-title {
+  width: 60%;
+  margin: 70px 20px;
+}
+
+.level-title h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.level-title p {
+  margin-bottom: 20px;
+  font-size: 23px;
+  color: #808080;
+}
+
+section.level .level-box .level-title a {
+  color: #5586bc;
 }
